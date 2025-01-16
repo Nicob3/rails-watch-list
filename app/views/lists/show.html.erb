@@ -1,0 +1,18 @@
+<div>
+  <img src=<%= @list.poster_url %> alt="movie poster">
+  <p>
+    <strong>Title:</strong>
+    <%= @list.title %>
+  </p>
+
+  <p>
+    <strong>Overview:</strong>
+    <%= @list.overview %>
+  </p>
+
+  <p>
+    <strong>Rating:</strong>
+    <%= @list.rating %>
+  </p>
+  <%= link_to "Back to list", root_path %>
+</div>
